@@ -4,10 +4,6 @@ class Node:
         self.nref = None
         self.pref = None
         
-    def foo():
-        from DoublyLinkedList import var_init
-        print('Модуль 1, функция foo(), var_init =', var_init)
-        
 class DoublyLinkedList:
     def __init__(self):
         self.start_node = None
