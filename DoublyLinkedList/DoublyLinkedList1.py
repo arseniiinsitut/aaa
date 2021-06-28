@@ -4,10 +4,6 @@ class Node:
         self.nref = None
         self.pref = None
         
-class DoublyLinkedList:
-    def __init__(self):
-        self.start_node = None
-        
     def insert_in_emptylist(self, data):
         if self.start_node is None:
             new_node = Node(data)
